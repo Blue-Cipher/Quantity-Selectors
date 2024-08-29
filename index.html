@@ -1,0 +1,92 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <h1>Quantity Selectors</h1>
+        <p>Which quantity selector is overall best?</p>
+    </div>
+   <div class="container">
+        <div class="inner-container">
+            <div class="text">Quantity</div>
+            <div class="section">
+                <div class="quantity_selector">
+                    <span class="quantity" id="cart_items">
+                        1
+                    </span>
+                    <div class="up-down">
+                        <div class="up">
+                            <span class="material-icons-sharp">
+                                expand_less
+                            </span>
+                        </div>
+                        <div></div>
+                        <div class="down">
+                            <span class="material-icons-sharp" onclick="cartQuantity()">
+                                expand_more
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="sample-number"><span>A</span></div>
+            </div>
+        </div>
+   </div>
+   <div class="container">
+        <div class="inner-container">
+            <div class="text">Quantity</div>
+            <div class="section">
+                <div class="quantity_selector">
+                    <span class="quantity">
+                        1
+                    </span>
+                    <div class="up-down">
+                        <div></div>
+                        <div class="down-b">
+                            <span class="material-icons-sharp">
+                                expand_more
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="sample-number"><span>B</span></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="inner-container">
+            <div class="text">Quantity</div>
+            <div class="section">
+                <div class="quantity_selector_c">
+                    <div class="subtract">
+                        <span class="material-icons-sharp">
+                            remove
+                        </span>
+                    </div>
+                    <div  class="quantity_c">
+                        <span>
+                            1
+                        </span>
+                    </div>
+                    <div class="add">
+                        <span class="material-icons-sharp">
+                            add
+                        </span>
+                    </div>
+                </div>
+                <div class="line"></div>
+                <div class="sample-number"><span>C</span></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

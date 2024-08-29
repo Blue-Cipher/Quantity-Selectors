@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: blanchedalmond;
+    background-image: linear-gradient(to left,rgba(92, 92, 221, 0.4),rgba(45, 187, 45,0.4));
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    min-width: 500px;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.inner-container{
+    padding: 20px 20px;
+}
+
+.quantity_selector{
+    padding: 10px 0;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50px;
+    min-width: 250px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-items: center;
+    text-align: left;
+}
+
+.quantity_selector_c{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    padding: 10px 0;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 50px;
+    min-width: 250px;
+}
+
+.section{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+
+.quantity{
+    padding-inline: 30px;
+    grid-column: span 3;
+}
+
+.quantity_c{
+    margin: auto;
+    padding: 12px 0;
+}
+
+.text{
+    padding: 10px;
+}
+
+.line{
+    width: 30%;
+    border: 1px dashed rgb(216, 216, 216);
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.up, .down{
+    cursor: pointer;
+    border-left: 1px solid rgb(216, 216, 216);
+    text-align: center;
+}
+
+.down-b{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 15px;
+    border-left: 1px solid rgb(216, 216, 216);
+    cursor: pointer;
+}
+
+.sample-number{
+    border: none;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(223, 221, 145);
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subtract, .add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px; 
+    height: 40px;
+    border-radius: 50%;
+    background-color: none; 
+    border: 1px solid #ccc; 
+    cursor: pointer;
+    font-size: 18px; 
+    color: #333; 
+    margin: 0 10px; 
+}
+
+.add{
+    margin-left: auto;
+}
+
